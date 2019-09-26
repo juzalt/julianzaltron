@@ -1,0 +1,9 @@
+#zaltronLogo {
+  color: blue;
+  font-weight: bold;
+}
+
+.navContainer{
+  display: flex;
+  margin: 50px 20px;
+}
