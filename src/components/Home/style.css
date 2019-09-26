@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  padding: 0 1em 0 1em;
 }
 
 @media (max-width: 48em) {
@@ -25,7 +26,7 @@
   overflow: hidden;
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-weight: bold;  
-  font-size: 38px;
+  font-size: 34px;
   color: rgb(230, 241, 255);
 }
 
@@ -33,9 +34,9 @@
   margin: 0;
   overflow: hidden;
   font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
-  color: rgb(29, 43, 65);
+  color: rgb(10, 25, 47);
   opacity: 0;
 }
 
