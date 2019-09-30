@@ -1,16 +1,14 @@
 import React from 'react';
 import './style.css';
-import { Link } from 'react-router-dom';
+import Logo from './logozaltron.svg'
 
 function Header(props){
   return(
-    <div className="navContainer">
-      <div id="zaltronLogo">Z</div>
-      {//acá tengo que importar un svg
-      /*<nav>
-        <Link to="/">JZ</Link>
-      </nav>*/}
-    </div>
+    <>
+      <div className="navContainer">
+        <img src={Logo} alt="Zaltrons logo" className="logo"/>
+      </div>
+    </>
   );
 }
 
