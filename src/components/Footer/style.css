@@ -19,3 +19,9 @@
   height: 29px;
   width: 29px;
 }
+
+.lineFooter{
+  border-top: 3px solid rgb(136, 146, 177);
+  width: 1em;
+  margin-top: 13px;
+}

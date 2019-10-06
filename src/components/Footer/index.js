@@ -9,6 +9,7 @@ function Footer(){
       <div className="footerContainer">
         <div className="socialContainer">
           <a target="_blank" href="https://www.instagram.com/zxltrn/"><img src={InstagramLogo} alt="Instagram logo" className="instagram"/></a>
+          <div className="lineFooter"/>
           <a target="_blank" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
         </div>
         <div className="aboutMe">

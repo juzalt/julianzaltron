@@ -18,7 +18,7 @@
 }
 
 .hero_h3{
-    font-size: 15px;
+    font-size: 11px;
     color: rgb(100, 255, 218);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-weight: normal;
@@ -32,7 +32,7 @@
   overflow: hidden;
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-weight: bold;  
-  font-size: 34px;
+  font-size: 30px;
   color: rgb(230, 241, 255);
   overflow-wrap: break-word;
 }
@@ -41,10 +41,11 @@
   margin: 0;
   overflow: hidden;
   font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(136, 146, 177);
   opacity: 0;
   overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .hero_p1 {
@@ -64,7 +65,7 @@
 
 .hero_p4 {
   animation-name: fadeIn;
-  animation-delay: 8s;
+  animation-delay: 7s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -72,7 +73,7 @@
 
 .hero_p5 {
   animation-name: fadeIn;
-  animation-delay: 19s;
+  animation-delay: 15s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;
