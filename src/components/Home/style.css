@@ -50,7 +50,7 @@
 }
 
 .hero_p1 {
-  animation: animated-text-write 4s steps(29) 1s 1 normal both,
+  animation: animated-text-write 3s steps(29) 1s 1 normal both,
              animated-cursor 600ms steps(29) infinite;
 }
 
@@ -82,7 +82,7 @@
 
 @keyframes animated-text-write{
   from{width: 0;}
-  to{width: 350px;}
+  to{width: 285px;}
 }
 
 @keyframes animated-cursor{
