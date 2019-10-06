@@ -16,3 +16,9 @@
   height: 13em;
   margin-left: 13px;
 }
+
+@media (max-width: 450px){
+  #sidebarContainer {
+    display: none;
+  }
+}
