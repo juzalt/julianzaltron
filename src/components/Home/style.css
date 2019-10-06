@@ -8,16 +8,21 @@
   flex-direction: column;
   align-content: center;
   padding: 0 1em 0 1em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 500px) {
   .hero_h3{
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(100, 255, 218);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-weight: normal;
   }
-}
+  .hero_p4, .hero_p5 {
+    font-size: 18px;
+  }
+} 
 
 .hero_p1, .hero_p2, .hero_p3 {
   margin: 0;
@@ -28,16 +33,17 @@
   font-weight: bold;  
   font-size: 34px;
   color: rgb(230, 241, 255);
+  overflow-wrap: break-word;
 }
 
-.hero_p4 {
+.hero_p4, .hero_p5 {
   margin: 0;
   overflow: hidden;
   font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(10, 25, 47);
+  font-size: 20px;
+  color: rgb(136, 146, 177);
   opacity: 0;
+  overflow-wrap: break-word;
 }
 
 .hero_p1 {
@@ -55,14 +61,17 @@
              animated-cursor 600ms steps(29) infinite;
 }
 
-.octocat{
-  height: 5em;
-  width: 6em;
-}
-
 .hero_p4 {
   animation-name: fadeIn;
   animation-delay: 8s;
+  animation-timing-function: ease; 
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.hero_p5 {
+  animation-name: fadeIn;
+  animation-delay: 19s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;

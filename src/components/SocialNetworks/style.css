@@ -1,0 +1,25 @@
+.logosContainer{
+  margin: 2em 2em 2em 0;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-delay: 14s;
+  animation-timing-function: ease; 
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.octocat, .linkedin {
+  height: 5em;
+  width: 6em;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
