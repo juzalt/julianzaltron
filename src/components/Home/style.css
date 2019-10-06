@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+
+#fullPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 #absContainer {
   height: 100%;
   width: 100%;
@@ -8,14 +16,10 @@
 }
 
 #container {
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  margin-left: 1em;
+  justify-content: space-evenly;
+  margin-left: 0.5em;
 }
 
 .hero_h3{
@@ -25,7 +29,7 @@
     font-weight: normal;
     margin: 0;
   }
-
+  
 .hero_p1, .hero_p2, .hero_p3 {
   margin: 0;
   border-right: solid 3px rgba(100, 255, 218);
@@ -35,7 +39,6 @@
   font-weight: bold;  
   font-size: 30px;
   color: rgb(230, 241, 255);
-  overflow-wrap: break-word;
 }
 
 .hero_p4, .hero_p5 {
@@ -45,8 +48,6 @@
   font-size: 16px;
   color: rgb(136, 146, 177);
   opacity: 0;
-  overflow-wrap: break-word;
-  word-break: break-all;
 }
 
 .hero_p1 {
@@ -56,12 +57,12 @@
 
 .hero_p2 {
   animation: animated-text-write 4s steps(29) 6s 1 normal both,
-             animated-cursor 600ms steps(29) infinite;
+  animated-cursor 600ms steps(29) infinite;
 }
 
 .hero_p3 {
   animation: animated-text-write 4s steps(29) 11s 1 normal both,
-             animated-cursor 600ms steps(29) infinite;
+  animated-cursor 600ms steps(29) infinite;
 }
 
 .hero_p4 {
@@ -96,5 +97,28 @@
   }
   100% {
     opacity:1;
+  }
+}
+
+@media (min-width: 700px){
+  #container{
+    margin-left: 5em;
+  }
+
+  .hero_p1 {
+    font-size: 40px;
+  }
+
+  .hero_p4, .hero_p5 {
+    font-size: 26px;
+  }
+
+  .hero_h3 {
+    font-size: 21px;
+  }
+
+  @keyframes animated-text-write{
+    from{width: 0;}
+    to{width: 445px;}
   }
 }
