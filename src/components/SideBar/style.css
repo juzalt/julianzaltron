@@ -1,0 +1,18 @@
+#sidebarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: fit-content;
+  margin: 0 0.5em;
+}
+
+.instagram, .gmail{
+  margin-bottom: 10px;
+}
+
+.line{
+  border-left: 3px solid rgb(136, 146, 177);
+  height: 13em;
+  margin-left: 13px;
+}

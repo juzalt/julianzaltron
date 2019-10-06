@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+#absContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
 
 #container {
   height: 100%;
@@ -7,22 +13,17 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 0 1em 0 1em;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-@media (max-width: 500px) {
-  .hero_h3{
+.hero_h3{
     font-size: 15px;
     color: rgb(100, 255, 218);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-weight: normal;
+    margin: 0;
   }
-  .hero_p4, .hero_p5 {
-    font-size: 18px;
-  }
-} 
 
 .hero_p1, .hero_p2, .hero_p3 {
   margin: 0;
