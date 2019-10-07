@@ -13,7 +13,10 @@ function Footer(){
           <a target="_blank" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
         </div>
         <div className="aboutMe">
-          <p>Made with ❤ by Julian Zaltron</p>
+          <p>Made with 🖤 by Julian Zaltron</p>
+        </div>
+        <div className="email">
+          <a href="mailto:zaltron.julian@gmail.com">zaltron.julian@gmail.com</a>
         </div>
       </div>
     </>

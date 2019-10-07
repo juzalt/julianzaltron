@@ -27,3 +27,15 @@
   margin-left: 1em;
   margin-right: 1em;
 }
+
+.aboutMe p {
+  font-size: 15px;
+  margin-bottom: 0.2em;
+}
+
+.email a {
+  font-size: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
