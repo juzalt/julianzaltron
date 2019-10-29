@@ -1,4 +1,4 @@
-#sidebarContainer{
+#emailSidebarContainer{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -7,14 +7,18 @@
   margin: 0 0.5em;
 }
 
-.instagram, .gmail{
-  margin-bottom: 10px;
+.emailSidebarLine{
+  border-left: 2px solid rgb(136, 146, 177);
+  height: 13em;
+  margin-top: 10px;
 }
 
-.line{
-  border-left: 3px solid rgb(136, 146, 177);
-  height: 13em;
-  margin-left: 13px;
+ a.email {
+  font-size: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(136, 146, 177);
+  writing-mode: vertical-rl;
 }
 
 @media (max-width: 450px){
