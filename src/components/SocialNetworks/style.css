@@ -4,7 +4,7 @@
   justify-content: space-around;
   opacity: 0;
   animation-name: fadeIn;
-  animation-delay: 4.9s;
+  animation-delay: 0.9s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -26,7 +26,7 @@
 
 @media (min-width: 1300px){
   .octocat, .linkedin {
-    height: 15em;
-    width: 18em;
+    height: 10em;
+    width: 13em;
   }
 }
