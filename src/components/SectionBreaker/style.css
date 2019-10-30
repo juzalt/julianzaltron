@@ -1,0 +1,35 @@
+.sectionBreakerContainer{
+  display: flex;
+}
+
+.sectionTitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #E6F1FF;
+
+  animation-name: fadeIn;
+  animation-delay: 5.5s;
+  animation-timing-function: ease; 
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionTitle:before,
+.sectionTitle:after {
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.sectionTitle:after{
+  margin: 0 0 0 20px;
+}
