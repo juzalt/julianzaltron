@@ -11,8 +11,8 @@
   margin-bottom: 10px;
 }
 
-.line{
-  border-left: 3px solid rgb(136, 146, 177);
+.socialSidebarLine{
+  border-left: 2px solid rgb(136, 146, 177);
   height: 13em;
   margin-left: 13px;
 }
@@ -23,8 +23,3 @@
   }
 }
 
-@media (min-width: 1300px){
-  #sidebarContainer {
-    margin: 0 0 0 4.5em;
-  }
-}

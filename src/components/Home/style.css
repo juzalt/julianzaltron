@@ -8,14 +8,21 @@
   height: 100%;
 }
 
-#absContainer {
+#heroContainer {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 }
 
-#container {
+#heroCenterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 1em;
+}
+
+#aboutMeContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -45,9 +52,29 @@
   margin: 0;
   overflow: hidden;
   font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(136, 146, 177);
   opacity: 0;
+}
+
+#aboutMeContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe_p4{
+  margin-top: 0.5em;
+  overflow: hidden;
+  font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(136, 146, 177);
+  opacity: 0;
+}
+
+.myAvatar{
+  width: 150px; 
+  height: 190px;
 }
 
 .hero_p1 {
@@ -67,7 +94,7 @@
 
 .hero_p4 {
   animation-name: fadeIn;
-  animation-delay: 7s;
+  animation-delay: 0.3s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -75,11 +102,21 @@
 
 .hero_p5 {
   animation-name: fadeIn;
-  animation-delay: 15s;
+  animation-delay: 0.6s;
   animation-timing-function: ease; 
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+
+#aboutMeContainer, .aboutMe_p4{
+  animation-name: fadeIn;
+  animation-delay: 1.5s;
+  animation-timing-function: ease; 
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
 
 @keyframes animated-text-write{
   from{width: 0;}
@@ -101,20 +138,25 @@
 }
 
 @media (min-width: 1300px){
-  #container{
-    margin-left: 15em;
-  }
-
   .hero_p1 {
-    font-size: 50px;
+    font-size: 114px;
   }
 
-  .hero_p4, .hero_p5 {
-    font-size: 36px;
+  .hero_p4, .hero_p5, .aboutMe_p4 {
+    font-size: 24px;
   }
 
   .hero_h3 {
     font-size: 31px;
+  }
+
+  .aboutMe_p4{
+    width: 70%;
+  }
+
+  #aboutMeContainer{
+    flex-direction: row;
+    justify-content: center;
   }
 
   @keyframes animated-text-write{
@@ -124,20 +166,27 @@
 }
 
 @media (min-width: 700px) and (max-width: 1299px){
-  #container{
-    margin-left: 5em;
-  }
 
   .hero_p1 {
-    font-size: 40px;
+    font-size: 63px;
   }
 
   .hero_p4, .hero_p5 {
-    font-size: 26px;
+    font-size: 14px;
+    width: 70%;
   }
 
   .hero_h3 {
     font-size: 21px;
+  }
+
+  .aboutMe_p4{
+    width: 50%;
+  }
+
+  #aboutMeContainer{
+    flex-direction: row;
+    justify-content: center;
   }
 
   @keyframes animated-text-write{
