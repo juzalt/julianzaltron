@@ -16,7 +16,7 @@ function Footer(){
           <p>Made with 🖤 by Julian Zaltron</p>
         </div>
         <div className="email">
-          <a href="mailto:zaltron.julian@gmail.com" rel="noopener">zaltron.julian@gmail.com</a>
+          <a href="mailto:zaltron.julian@gmail.com" target="_blank" rel="noopener">zaltron.julian@gmail.com</a>
         </div>
       </div>
     </>
