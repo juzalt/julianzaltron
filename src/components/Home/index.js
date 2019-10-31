@@ -31,10 +31,12 @@ function Home(){
         </div>
         <SectionBreaker sectionTitle="About me"/>
           <div id="aboutMeContainer">
-            <p className="aboutMe_p4">
-              Welcome to my site! My name is Julian Zaltron and I'm a software engineer. 
-              I'm currently studying Computer Science in the University of Buenos Aires.
-              I love solving problems and I'm passionate about technology.
+            <div id="aboutMePContainer">
+              <p className="aboutMe_p4">
+                Welcome to my site! My name is Julian Zaltron and I'm a software engineer. 
+                I'm currently studying Computer Science in the University of Buenos Aires.
+                I love solving problems and I'm passionate about technology.
+              </p>
               <p className="aboutMe_p4">
               This is evidenced by my background, which started when I was a teen, learning to install and manage different operating systems (most of them Unix-based) with the help of my brother at first.
               This led me to start working in Information Technology when I was 18yo, and later switching to a QA Automation position when I wanted to be closer to software development.
@@ -44,7 +46,7 @@ function Home(){
               In my spare time I love to exercise and I'm an avid reader & writer.
               I also like woodworking, juggling and playing guitar and videogames from time to time.
               </p>
-            </p>
+            </div>
             <img src={MyAvatar} alt="Julian Zaltrons avatar" className="myAvatar"/>
           </div>
         <Footer/>

@@ -25,8 +25,13 @@
 #aboutMeContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 1em;
+  align-items: center;
+  margin: 0 1em;
+}
+
+#aboutMePContainer{
+  display: flex;
+  flex-direction: column;
 }
 
 .hero_h3{
@@ -55,12 +60,6 @@
   font-size: 14px;
   color: rgb(136, 146, 177);
   opacity: 0;
-}
-
-#aboutMeContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .aboutMe_p4{
@@ -150,13 +149,15 @@
     font-size: 31px;
   }
 
-  .aboutMe_p4{
-    width: 70%;
+  #aboutMeContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13em;
   }
 
-  #aboutMeContainer{
-    flex-direction: row;
-    justify-content: center;
+  .myAvatar{
+    width: 240px;
+    height: 310px;
   }
 
   @keyframes animated-text-write{
@@ -180,13 +181,10 @@
     font-size: 21px;
   }
 
-  .aboutMe_p4{
-    width: 50%;
-  }
-
   #aboutMeContainer{
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13em;
   }
 
   @keyframes animated-text-write{
