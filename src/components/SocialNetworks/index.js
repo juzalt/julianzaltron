@@ -7,8 +7,8 @@ function SocialNetworks(){
   return (
     <>
       <div className="logosContainer">
-        <a target="_blank" href="https://github.com/juzalt"><img src={Octocat} alt="Githubs octocat logo" className="octocat"/></a>
-        <a target="_blank" href="https://www.linkedin.com/in/julian-zaltron-99944b17a/"><img src={LinkedInLogo} alt="LinkedIn logo" className="linkedin"/></a>
+        <a target="_blank" rel="noopener" href="https://github.com/juzalt"><img src={Octocat} alt="Githubs octocat logo" className="octocat"/></a>
+        <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/julian-zaltron-99944b17a/"><img src={LinkedInLogo} alt="LinkedIn logo" className="linkedin"/></a>
       </div>
     </>
   );
