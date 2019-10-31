@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import SideBarSocialNetworks from '../SideBarSocialNetworks';
 import SideBarEmail from '../SideBarEmail';
 import SectionBreaker from '../SectionBreaker';
-import MyAvatar from './WhatsApp Image 2019-10-23 at 11.41.30.png';
+import MyAvatar from './WhatsApp Image 2019-10-23 at 11.41.30_2.png';
 
 
 function Home(){
