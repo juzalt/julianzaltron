@@ -21,7 +21,7 @@ function Home(){
               <p className="hero_h3">Hi, my name is</p>
               <p className="hero_p1">Julian Zaltron.</p>
               <p className="hero_p4">
-              I'm a software engineer based in Buenos Aires, Argentina who enjoys using React, CSS and JS to build sites. 
+              I'm a software developer based in Buenos Aires, Argentina who enjoys using React, CSS and JS to build sites. 
               </p>
               <p className="hero_p5">You can checkout my stuff by following these links, or keep scrolling to learn more about me. Feel free to get in touch!</p>
               <SocialNetworks/>
@@ -33,7 +33,7 @@ function Home(){
           <div id="aboutMeContainer">
             <div id="aboutMePContainer">
               <p className="aboutMe_p4">
-                Welcome to my site! My name is Julian Zaltron and I'm a software engineer. 
+                Welcome to my site! My name is Julian Zaltron and I'm a software developer. 
                 I'm currently studying Computer Science in the University of Buenos Aires.
                 I love solving problems and I'm passionate about technology.
               </p>
