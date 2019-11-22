@@ -1,5 +1,6 @@
 .navContainer{
   display: flex;
+  justify-content: space-between;
   margin: 0 0 35px 0;
   box-shadow: 0px 5px 10px rgba(30, 45, 66);
   padding: 1.5em 1.5em;
@@ -24,4 +25,9 @@
 .logo {
   width: 2em;
   height: 2em;
+}
+
+.headerElement {
+  font-size: x-large;
+  color: rgb(136, 146, 177);
 }
