@@ -3,6 +3,7 @@ import React from 'react';
 function Keybase(){
   return (
     <>
+    <span>
     ==================================================================
 https://keybase.io/julianzaltron
 --------------------------------------------------------------------
@@ -59,6 +60,7 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/julianzaltron
 
 ==================================================================
+    </span>
     </>
   )
 }
