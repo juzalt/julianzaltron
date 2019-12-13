@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Route exact path="/" component={Home}/>
         <Route exact path="/secure-messaging" component={SecureMessaging}/>
+        <Route exact path="/keybase.txt" component={Keybase}/>
       </Router>
     </>
   );
