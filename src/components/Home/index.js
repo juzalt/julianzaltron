@@ -43,7 +43,7 @@ function Home(){
               It was there that it hit me that my dream job would consist of working in a team developing software as a coder.
               </p>
               <p className="aboutMe_p4">
-              In my spare time I love to exercise and I'm an avid reader & writer.
+              In my spare time I'm an infosec enthusiast. I love to exercise and I'm an avid reader & writer.
               I also like woodworking, juggling and playing guitar and videogames from time to time.
               </p>
             </div>
