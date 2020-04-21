@@ -76,6 +76,12 @@
   height: 190px;
 }
 
+.workplace {
+  color: lightblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .hero_p1 {
   animation: animated-text-write 3s steps(29) 1s 1 normal both,
              animated-cursor 600ms steps(29) infinite;
