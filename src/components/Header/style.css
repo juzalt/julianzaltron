@@ -31,3 +31,16 @@
   font-size: x-large;
   color: rgb(136, 146, 177);
 }
+
+.aboutMe p {
+  font-size: 15px;
+  margin-bottom: 0.2em;
+  color: rgb(136, 146, 177);
+}
+
+.email a {
+  font-size: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(136, 146, 177);
+}

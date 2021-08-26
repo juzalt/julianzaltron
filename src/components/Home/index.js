@@ -2,12 +2,10 @@ import React from 'react';
 import './style.css'
 import Header from '../Header';
 import SocialNetworks from '../SocialNetworks';
-import Footer from '../Footer';
 
 
 function Home(){
   return(
-    <>
       <div id="fullPageContainer">
         <Header/>
         <div role="main">
@@ -23,9 +21,7 @@ function Home(){
             </div>
           </div>
         </div>
-        <Footer/>
       </div>
-    </>
   );
 }
 export default Home;

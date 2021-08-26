@@ -2,8 +2,6 @@ import React from 'react';
 import './style.css'
 import Header from '../Header';
 import Footer from '../Footer';
-import SideBarSocialNetworks from '../SideBarSocialNetworks';
-import SideBarEmail from '../SideBarEmail';
 
 const absolute = {
   position: 'absolute'

@@ -8,7 +8,12 @@ function Header(props){
     <>
       <div className="navContainer">
         <Link to="/"><img src={Logo} alt="Zaltrons logo" className="logo"/></Link>
-        <Link to="/secure-messaging"><a className="headerElement">Public key</a></Link>
+        <div className="aboutMe headerElement">
+          <p>Made with 🖤 by Julian Zaltron</p>
+        </div>
+        <div className="email headerElement">
+          <a href="mailto:zaltron.julian@gmail.com" target="_blank" rel="noopener">zaltron.julian@gmail.com</a>
+        </div>
       </div>
     </>
   );
