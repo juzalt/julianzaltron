@@ -16,7 +16,6 @@ function SecureMessaging(){
         <Header/>
         <div role="main">
           <div id="heroContainer">
-            <SideBarSocialNetworks/>
             <div id="heroCenterContainer">
               <p className="hero_h3">Let's talk</p>
               <p id="pgp">
@@ -29,7 +28,6 @@ function SecureMessaging(){
                 </p>
               </p>
             </div>
-            <SideBarEmail/>
           </div>
         </div>
         <Footer style={absolute}/>

@@ -7,7 +7,7 @@ function Footer(props){
   return(
       <div className="footerContainer" style={props.style}>
         <div className="socialContainer">
-          <a target="_blank" rel="noopener" href="https://www.instagram.com/zxltrn/"><img src={InstagramLogo} alt="Instagram logo" className="instagram"/></a>
+          <a target="_blank" rel="noopener" href="https://www.instagram.com/julianzaltron/"><img src={InstagramLogo} alt="Instagram logo" className="instagram"/></a>
           <div className="lineFooter"/>
           <a target="_blank" rel="noopener" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
         </div>
