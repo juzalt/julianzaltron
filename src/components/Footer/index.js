@@ -5,7 +5,6 @@ import GmailLogo from './gmailLogo.png';
 
 function Footer(props){
   return(
-    <>
       <div className="footerContainer" style={props.style}>
         <div className="socialContainer">
           <a target="_blank" rel="noopener" href="https://www.instagram.com/zxltrn/"><img src={InstagramLogo} alt="Instagram logo" className="instagram"/></a>
@@ -19,7 +18,6 @@ function Footer(props){
           <a href="mailto:zaltron.julian@gmail.com" target="_blank" rel="noopener">zaltron.julian@gmail.com</a>
         </div>
       </div>
-    </>
   );
 }
 

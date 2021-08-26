@@ -15,7 +15,6 @@ function Home(){
         <Header/>
         <div role="main">
           <div id="heroContainer">
-            <SideBarSocialNetworks/>
             <div id="heroCenterContainer">
               <p className="hero_h3">Hi, my name is</p>
               <p className="hero_p1">Julian Zaltron.</p>
@@ -25,24 +24,8 @@ function Home(){
               <p className="hero_p5">You can checkout my projects or learn more about me by following these links.</p>
               <SocialNetworks/>
             </div>
-            <SideBarEmail/>
           </div>
         </div>
-        <SectionBreaker sectionTitle="About me"/>
-          <div id="aboutMeContainer">
-            <div id="aboutMePContainer">
-              <p className="aboutMe_p4">
-                I'm currently studying Computer Science @ the University of Buenos Aires.
-                I'm working with Angular and C# 
-                <a 
-                  className="workplace" 
-                  target="_blank" 
-                  rel="noopener" 
-                  href="http://www.d3sistemas.com.ar/"> @ D3 Sistemas
-                </a>
-              </p>
-            </div>
-          </div>
         <Footer/>
       </div>
     </>
