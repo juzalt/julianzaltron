@@ -9,11 +9,9 @@ function Header(props){
       <div className="navContainer">
         <Link to="/"><img src={Logo} alt="Zaltrons logo" className="logo"/></Link>
         <div className="aboutMe headerElement">
-          <p>Made with 🖤 by Julian Zaltron</p>
+          <p>🖤</p>
         </div>
-        <div className="email headerElement">
-          <a href="mailto:zaltron.julian@gmail.com" target="_blank" rel="noopener">zaltron.julian@gmail.com</a>
-        </div>
+        <a class="headerElement" target="_blank" rel="noopener" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
       </div>
     </>
   );
