@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css';
-import Logo from './logozaltron.svg'
-import { Link } from 'react-router-dom' 
+import Logo from './logozaltron.svg';
+import { Link } from 'react-router-dom'; 
+import GmailLogo from 'gmailLogo.png';
 
 function Header(props){
   return(
