@@ -3,9 +3,6 @@ import './style.css'
 import Header from '../Header';
 import SocialNetworks from '../SocialNetworks';
 import Footer from '../Footer';
-import SideBarSocialNetworks from '../SideBarSocialNetworks';
-import SideBarEmail from '../SideBarEmail';
-import SectionBreaker from '../SectionBreaker';
 
 
 function Home(){
