@@ -12,7 +12,7 @@ function Header(props){
         <div className="aboutMe headerElement">
           <span role="img" aria-label="Black heart emoji. Click on it for a surprise." ><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">🖤</a></span>
         </div>
-        <a class="headerElement" target="_blank" rel="noopener noreferrer" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
+        <a className="headerElement" target="_blank" rel="noopener noreferrer" href="mailto:zaltron.julian@gmail.com"><img src={GmailLogo} alt="Gmail logo" className="gmail"/></a>
       </div>
     </>
   );
