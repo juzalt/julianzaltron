@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import './style.css'
 import Header from '../Header';
+import marta from './marta.jpg';
 
 
 function Home(){
@@ -11,6 +12,7 @@ function Home(){
   return(
       <div id="fullPageContainer">
         <Header/>
+        <img src={marta} alt='collage de marta minujin' height={"100"} width={"100"} className='marta'/>
         <div role="main" className='main'>
           <div id="heroContainer">
             <div id="heroCenterContainer">
