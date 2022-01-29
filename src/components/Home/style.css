@@ -34,7 +34,13 @@
   flex-direction: column;
 }
 
-.hero_h3{
+.main {
+  background-image: url('/src/assets/banana.gif');
+  background-repeat: repeat;
+  background-color: green;
+}
+
+.hero_h3 {
     font-size: 11px;
     color: rgb(100, 255, 218);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
